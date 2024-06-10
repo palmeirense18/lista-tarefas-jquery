@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+html {}
+body {
+    background-color: #cea469;
+    padding: 10rem 0px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+#title {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+#subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.instruction {
+    font-style: italic;
+    color: #585555;
+    max-width: 40ch;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#dasehd {
+    display: block;
+    border-bottom: 4px dotted #585555;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-button {
+    display: inline;
+}
+
+input {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 0px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0 #000;
+    text-align: center;
+    border-radius: none;
+    margin-bottom: 18px;
+}
+
+.button {
+    border-radius: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px 8px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0 #000;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #111;
+    text-decoration: none;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+a:hover {
+    background-color: #ffffff;
+}
+
+ol li {
+    text-transform: uppercase;
+    margin: 0 30px;
+    padding: 5px 0px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+}

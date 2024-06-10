@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa Jquery</title>
+    <link rel="stylesheet" href="./main.css" /> 
+</head>
+<body>
+    <header class="container">
+        <h1 id="title">Tarefas para fazer</h1>
+        <h2 id="subtitle">Adicione suas tarefas</h2>
+    </header>
+    <div class="container">
+        <form id="task-form">
+            <input type="text" id="tarefa" required placeholder="Ex: Arrumar a casa"/>
+            <div class="container-button">
+                <button class="button" type="submit">Adicionar +</button>
+                <a class="button" href="./index.html">Limpar</a>
+            </div>
+            <p class="instruction">
+                Quando realizar sua tarefa, clique em cima dela para risca-la
+            </p>
+            <span id="dashed"></span>
+        </form>
+        <ol id="task-list"></ol>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script src="./main.js"></script>
+</body>
+</html>
